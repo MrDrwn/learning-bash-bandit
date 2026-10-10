@@ -1,0 +1,22 @@
+# Bandit Level 3 -> 4
+
+### 🎯 Goal
+The password for the next level is stored in a hidden file in the inhere directory.
+
+### 💡 How to Solve
+1. I first use ls to see where to start to search and got inhere file
+2. despues entre al file "inhere" using cd "name"
+3. then, I use ls to see the content of inhere but didn't got anything
+4. so I use the argument --all to get all the content in this directory
+5. Try cat .Hiding-From-You but i didn't get the answer
+6. so i use find to see what it does an got the right format of how to interact with file hiding-from-you (./...Hiding-From-You)
+7. finally used cat ./...Hiding-From-You y obtuve the flag
+
+### 💻 Commands Used
+```bash
+# ls
+# cd
+# cat
+# find
+
+### ⏱️ Time Taken: 5:45:88

@@ -1,0 +1,23 @@
+# Bandit Level 4 -> 5
+
+### 🎯 Goal
+The password for the next level is stored in the only human-readable file in the inhere directory.
+
+### 💡 How to Solve
+1. primero uso ls para ver mis files en inicio y solo recibo inhere
+2. luego con cd entro a inher
+3. con find busco archivos ocultos y recibo 10 files distintos
+4. trato de abrir todos con cat con el formato que me paso find
+5. obtengo una linea de codigo corrompido que parece ser binario
+6. despues investigo que comando puedo usar y encuentro que file basicamente de te devuelve el tipo de un archivo
+7. finalmente veo que el unico archivo ASCII es el 7 y lo abro usando cat ./file07 y obtengo mi flag 
+
+### 💻 Commands Used
+
+# cd
+# ls
+# cat
+# file
+# find
+
+### ⏱️ Time Taken: 15:43:86

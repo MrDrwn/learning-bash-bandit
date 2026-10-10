@@ -1,0 +1,17 @@
+# Bandit Level 0
+
+### 🎯 Goal
+[Briefly state what you needed to find]
+connect to the OverTheWire's servers using a adress, a port, username and password
+### 💡 How to Solve
+1. Firts, I read the Helpful Material on the website.
+2. then, found how to ssh after read an article.
+3. use the format ssh <user>@<adress> -p <port>.
+4. finally use the password provided by the website and get in
+### 💻 Commands Used
+```bash
+ssh
+
+# Type the commands you used here
+
+### ⏱️ Time Taken: 13:52 min

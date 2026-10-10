@@ -1,0 +1,20 @@
+# Bandit Level 2 -> 3
+
+### 🎯 Goal
+Get the password in a file called --spaces in this filename--
+
+### 💡 How to Solve
+1. First i noticed that the file is between -- -- which could be problematic
+2. then i started to investigated how to handled this dashes and spaces
+3. after i make myself sure that i was in the correct file using ls.
+4. i tried using ./ but i got an error
+5. afterwards, i found out that if you use -- & "" together you say to the console -- (the next character aren't arguments) and "" (put together the next succesion of characters) which is a way to say, that sentence is just a file name
+6. finally i used cat -- "--spaces ..." and got the flag 
+
+### 💻 Commands Used
+```bash
+# ls 
+# cat (arguments: -- & " ")
+
+
+### ⏱️ Time Taken: 9:33:76

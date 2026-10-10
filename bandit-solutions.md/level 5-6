@@ -1,0 +1,26 @@
+# Bandit Level 5 -> 6
+
+### 🎯 Goal
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: human-readable, 1033 bytes in size, not executable.
+
+
+### 💡 How to Solve
+1. primero uso ls y entro a inhere
+2. en inhere uso ls y veo 10 carpetas llamadas maybehere
+3. con find veo que cada carpeta tiene al menos 4 files
+4. usando la pista con du trato de ver cuales son los files que pesan 1033 bytes pero solo recibo valores de una y dos unidades
+5. investigo un poco y veo que eso se debe a la dispocision de la memoria por lo que es necesario usar la opccion -b para recibir el valor equivalente en bytes
+6. finalmente encuentro el file y lo abro usando cat
+
+7. investigo un poco y me doy cuenta de que debi usar find y sus opciones -type= f -size= 1033c ! -executable,
+
+### 💻 Commands Used
+```bash
+# ls
+# find
+# file
+# cat
+# du # -a -b
+# cd
+
+### ⏱️ Time Taken: 18:16:83

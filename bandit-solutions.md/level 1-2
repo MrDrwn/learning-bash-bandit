@@ -1,0 +1,21 @@
+# Bandit Level 1 -> 2
+
+### 🎯 Goal
+The password for the next level is stored in a file called "-" 
+
+### 💡 How to Solve
+1. first, i used ls to see where i was, i discovered that i was in a file called - 
+2. second, what it tried first was cat, but a got stock into the cat command (i used ctrl + c to quit that process)
+3. after, i looked up the Helpful Reading Materials section to learn how to handeld files called -
+4. then, i found that if a file is called "-", you could use "./" to make the console know that you aren't passing a succesion of arguments, instead just a name.
+5. finally i use ./- with cat and a got the password. 
+
+### 💻 Commands Used
+```bash
+# Type the exact commands here
+# man
+# cat
+# find
+# ls
+
+### ⏱️ Time Taken: 12:58:27

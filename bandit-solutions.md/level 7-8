@@ -1,0 +1,19 @@
+# Bandit Level 7 -> 8
+
+### 🎯 Goal
+The password for the next level is stored in the file data.txt next to the word millionth
+
+### 💡 How to Solve
+1. primero use mi clasico ls para ver que opciones tenia y encontre data.txt
+2. luego trate con cat por si las dudas, pero se me abrio un archivo de texto con mas de 1000 lineas de texto
+3. por lo que busque en la web oficial de OverTheWire los comandos que podria usar y le pase la lista a Gemini para que me explicara brevemente que hacia cada uno
+4. luego me di cuenta que grep era literamente un buscador por parabras asi que me puse a investigar como se usaba correctamente.\
+5. finalmente hice grep "millionth" data.txt y obtuve la flag
+
+### 💻 Commands Used
+```bash
+# ls 
+# cat 
+# grep 
+
+### ⏱️ Time Taken: 5: 30: 96

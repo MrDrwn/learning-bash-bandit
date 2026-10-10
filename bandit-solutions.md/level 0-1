@@ -1,0 +1,20 @@
+# Bandit Level 0 -> 1
+
+### 🎯 Goal
+Find the password located in readme file.
+
+### 💡 How to Solve
+1. first I investigated what all the given commands does using "man"
+2. using find i received just readme, which is weird because i didnt get the full address 
+3. then I tried using ls and i find out that i was already in readme file
+4. finally i used cat to get the content of the file and get the password with a congratilation messages.
+
+### 💻 Commands Used
+```bash
+# man
+# find
+# ls
+# cat
+
+### ⏱️ Time Taken: 6:37:83
+

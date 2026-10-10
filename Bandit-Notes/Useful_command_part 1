@@ -1,0 +1,39 @@
+### here is what I discovered and to use a command.
+
+###.......... cd ..........###
+cd <----- es la forma por la cual te mueves por los directorios o files
+
+cd filename <---- abre ese file directamente
+
+cd - <--- es un control z para volver a tu ultima ubicacion
+
+cd .. <--- te devuelve un paso atras en tu directorio ejem: mata/guineo/boca (cd ..) --> mata/guineo y (cd ../..) --> mata
+
+cd ./filename <--- te permite entrar a una carpeta que este especificamente ubicada en el directorio actual ( " . " es como decir aqui) seria como decir [cd aqui/mmg.txt]
+
+###.......... cd ..........###
+
+man "sex" <---------- eto eplica pa que silve un comando
+
+ssh <---- program para entrar en maquinas remotas
+
+find <--- encuentra la ubi de un file
+
+ls <--- te dice el file en el que estas 
+
+cat <--- te da el content de un file
+
+###############
+find <--- mas potente que ls, porque te da todo lo que este por debajo de en la jerarquia permitiendote ver archivos de dificil acceso
+find / -TusOpciones aqui 2>/dev/null <--- muy util porque busca y no se detiene aunque reciba un error por lo que analiza Todos los files a los que tienes acceso e ignora a los que no
+###############
+
+file <--- es el type() de python. muy util***
+
+du <--- para ver el espacio de un archivo y con -a ves todos los de ese cd y con -b conviertes a bytes
+
+./- <--- sirve para manipular un file llamado "-"
+
+-- <--- le dice a la consola "lo que venga despues no son argumentos, son nombres de files" lo que este-- dentro es el nombre" <--- es strip de java, ex: "loqueeste-- dentroeselnombre" (-- "el nombre del file") <--- combinar -- & "" sirve para evitar cualquier tipo de interrupcion por el formato del nombre para que no te salte ninguna exeption por espacios o formato
+
+### nota ###: los espacios sirven como decir && o AND en bash 
